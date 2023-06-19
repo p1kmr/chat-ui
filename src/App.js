@@ -20,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
   },
   messageContainer: {
     width: "60%",
+    border: '1px solid',
+    borderRadius: '10px',
+    marginLeft: '10px',
   },
   inputContainer: {
     display: "flex",
