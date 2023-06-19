@@ -1,0 +1,98 @@
+.App {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .ChatContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .ChatList {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .ChatBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .ChatBox.selected {
+    background-color: #e8e8e8;
+  }
+  
+  .CloseButton {
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .MessageContainer {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .ChatBoxMessages {
+    margin-bottom: 10px;
+  }
+  
+  .Message {
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 6px;
+  }
+  
+  .SelfMessage {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+  }
+  
+  .OtherMessage {
+    background-color: #f0f0f0;
+    align-self: flex-start;
+  }
+  
+  .InputContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .InputTextArea {
+    flex: 1;
+    height: 40px;
+    padding: 6px;
+  }
+  
+  .SendButton {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .InputTextArea:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  .SendButton:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+  }
+  
