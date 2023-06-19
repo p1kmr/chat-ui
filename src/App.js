@@ -82,6 +82,7 @@ function App() {
       </div>
       <div className={classes.inputContainer}>
         <TextareaAutosize
+        placeholder="Type here..."
           className={`${classes.inputTextArea} ${classes.whiteColor}`}
           value={
             selectedPerson
@@ -91,6 +92,7 @@ function App() {
           }
           onChange={handleInputChange}
           disabled={!selectedPerson}
+          
         />
         <Button
           className={classes.sendButton}
