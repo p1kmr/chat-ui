@@ -4,7 +4,7 @@ export const ChatContext = createContext();
 
 export const ChatProvider = ({ children }) => {
   const [chatBoxes, setChatBoxes] = useState([]);
-  const [selectedPerson, setSelectedPerson] = useState(null);
+  const [selectedPerson, setSelectedPerson] = useState("Person 1");
 
   const addChatBox = () => {
     const newChatBox = {
